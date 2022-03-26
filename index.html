@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>QUIZ</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="#"><img src="img/logo.svg" alt="logo" /></a>
+        <h1 class="header__title">QUIZ TIME</h1>
+      </div>
+    </header>
+    <main class="main">
+      <h2 class="main__title">Выберите Quiz</h2>
+      <div class="main__box selecton">
+        <ul class="selection__list">
+          <div class="selection__box">
+            <li class="selection__item">Финансовая грамотность</li>
+            <li class="selection__item">Фронтенд разработка</li>
+            <li class="selection__item">Бэкенд разработка</li>
+            <li class="selection__item">Личные инвестиции</li>
+            <li class="selection__item">Нутрициология</li>
+            <li class="selection__item">Финансовая грамотность</li>
+            <li class="selection__item">Фронтенд разработка</li>
+            <li class="selection__item">Бэкенд разработка</li>
+            <li class="selection__item">Личные инвестиции</li>
+            <li class="selection__item">Нутрициология</li>
+          </div>
+          <div class="selecton__result"><span>7/10</span>Последний результат</div>
+        </ul>
+      </div>
+      <div class="main__box main__box-question selecton">
+        <form class="main__form form-main" data-count="1/10">
+          <div class="form-main__section">
+            <h2 class="main__subtitle">Какие типы input корректны?</h2>
+            <div class="form-main__box">
+              <label class="form-main__label">
+                <input type="checkbox" name="answer" />
+                text
+              </label>
+              <label class="form-main__label">
+                <input type="checkbox" name="answer" />
+                color
+              </label>
+              <label class="form-main__label">
+                <input type="checkbox" name="answer" />
+                week
+              </label>
+              <label class="form-main__label">
+                <input type="checkbox" name="answer" />
+                day
+              </label>
+            </div>
+            <div class="form-main__footer">
+              <button class="form-main__btn btn">Подтвердить</button>
+              <div class="form-main__step">1/10</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="main__box main__box-question selecton">
+        <form class="main__form form-main" data-count="2/10">
+          <div class="form-main__section">
+            <h2 class="main__subtitle">Какие типы input корректны?</h2>
+            <div class="form-main__box">
+              <label class="form-main__label">
+                <input type="radio" name="answer" />
+                Рим
+              </label>
+              <label class="form-main__label">
+                <input type="radio" name="answer" />
+                Амстердам
+              </label>
+              <label class="form-main__label">
+                <input type="radio" name="answer" />
+                Афины
+              </label>
+              <label class="form-main__label">
+                <input type="radio" name="answer" />
+                Вашингтон
+              </label>
+            </div>
+            <div class="form-main__footer">
+              <button class="form-main__btn btn">Подтвердить</button>
+              <div class="form-main__step">1/10</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="main__box-final final selecton">
+        <h2 class="main__subtitle main__subtitle-final">Ваш результат</h2>
+        <div class="final__box">
+          <div class="final__result"><span>10/10</span></div>
+          <p class="final__text">Отличный результат!</p>
+        </div>
+        <button class="final__btn final__return btn">К списку вкизов</button>
+      </div>
+    </main>
+  </body>
+</html>
