@@ -5,7 +5,7 @@ const selection = document.querySelector('.selecton');
 const title = document.querySelector('.main__title');
 
 const getData = () => {
-  return fetch('../db/quiz_db.json').then(response => response.json());
+  return fetch('https://question-quiz-2fcd6-default-rtdb.firebaseio.com/db.json').then(response => response.json());
 };
 
 const localResult = id => localStorage.getItem(id);
